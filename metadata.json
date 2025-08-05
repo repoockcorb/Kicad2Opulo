@@ -18,7 +18,6 @@
       "version":       "1.0.0",
       "status":        "stable",
       "kicad_version": "7.0",
-      // **This is the key bit**: point at your script
       "files": [
         {
           "path": "scripts/custom_pnp_csv_exporter.py",
@@ -28,3 +27,4 @@
     }
   ]
 }
+
