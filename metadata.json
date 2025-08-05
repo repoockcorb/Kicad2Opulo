@@ -1,5 +1,5 @@
 {
-  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
   "name":            "Custom PnP CSV Exporter",
   "identifier":      "com.repoockcorb.kicad2opulo",
   "type":            "plugin",
@@ -27,4 +27,5 @@
     }
   ]
 }
+
 
