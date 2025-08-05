@@ -1,0 +1,33 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Custom Opulo OpenPnP CSV Exporter",
+    "identifier": "com.repoockcorb.custompnpexporter",
+    "type": "plugin",
+    "description": "Export a CSV of component positions with LCSC & height fields.",
+    "description_full": "Generates a CSV PnP file from custom #LCSC and #Height fields, coordinates relative to the board origin with Y inverted.",
+    "author": {
+      "name": "Brock Cooper",
+      "contact": {
+        "github": "https://github.com/repoockcorb"
+      }
+    },
+    "maintainer": {
+      "name": "Your Name",
+      "contact": {
+        "github": "https://github.com/repoockcorb"
+      }
+    },
+    "license": "GPL-3.0-or-later",
+    "resources": {
+      "homepage": "https://github.com/repoockcorb/my-kicad-pnp-exporter",
+      "icon": "resources/custom_icon.svg"
+    },
+    "versions": [
+      {
+        "version": "1.0.0",
+        "status": "stable",
+        "kicad_version": "9.0"
+      }
+    ]
+  }
+  
