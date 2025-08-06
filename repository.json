@@ -10,9 +10,9 @@
     },
     "packages": {
         "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/packages.json",
-        "sha256": "77f918d82d07c6c74f8bb821e7ebb91071b2fffcde29e1e0e90df4bf7f73baf1",
-        "update_timestamp": 1754466555,
-        "update_time_utc": "2025-08-06 17:49:15"
+        "sha256": "c2d722a6fabfb2b48e711e2f43aad98748d19739a0748ba15b0ddc405073380a",
+        "update_timestamp": 1754469141,
+        "update_time_utc": "2025-08-06 18:32:21"
     },
     "resources": {
         "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
