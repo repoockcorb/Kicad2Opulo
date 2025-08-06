@@ -1,5 +1,7 @@
 {
   "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name":        "RepoockCorb KiCad Plugin Repo",
+  "description": "A repo of custom KiCad plugins…",
   "packages": [
     {
       "name":       "Custom PnP CSV Exporter",
@@ -24,3 +26,4 @@
     }
   ]
 }
+
