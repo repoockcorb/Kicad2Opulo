@@ -6,15 +6,8 @@
       "identifier": "com.repoockcorb.kicad2opulo",
       "type": "plugin",
       "description": "CSV export with #LCSC & #Height fields; Y axis inverted.",
-      "description_full": "Generates a CSV PnP file from custom #LCSC and #Height fields, coordinates relative to the board origin with Y inverted.",
       "license": "GPL-3.0-or-later",
       "author": {
-        "name": "Brock Cooper",
-        "contact": {
-          "github": "https://github.com/repoockcorb"
-        }
-      },
-      "maintainer": {
         "name": "Brock Cooper",
         "contact": {
           "github": "https://github.com/repoockcorb"
