@@ -9,6 +9,7 @@
     }
   },
   "packages": {
-    "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/packages.json"
+    "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/packages.json",
+    "update_timestamp": "2024-01-01T00:00:00Z"
   }
 }
