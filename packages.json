@@ -25,7 +25,7 @@
           "kicad_version": "7.0",
           "files": [
             {
-              "path": "resources.zip",
+              "path": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
               "type": "archive"
             }
           ]
