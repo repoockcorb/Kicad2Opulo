@@ -2,8 +2,8 @@
   "$schema": "https://go.kicad.org/pcm/schemas/v1",
   "name":        "RepoockCorb KiCad Plugin Repo",
   "description": "A repository of custom KiCad plugins, including the Custom PnP CSV Exporter.",
-  "packages": [
-    {
+  "packages": {
+    "com.repoockcorb.kicad2opulo": {
       "name":       "Custom PnP CSV Exporter",
       "identifier": "com.repoockcorb.kicad2opulo",
       "type":       "plugin",
@@ -24,5 +24,5 @@
         }
       ]
     }
-  ]
+  }
 }
