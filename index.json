@@ -1,13 +1,13 @@
 {
   "$schema": "https://go.kicad.org/pcm/schemas/v1",
   "name":        "RepoockCorb KiCad Plugin Repo",
-  "description": "A repo of custom KiCad plugins…",
+  "description": "A repository of custom KiCad plugins, including the Custom PnP CSV Exporter.",
   "packages": [
     {
       "name":       "Custom PnP CSV Exporter",
       "identifier": "com.repoockcorb.kicad2opulo",
       "type":       "plugin",
-      "description":"CSV export with #LCSC & #Height, Y inverted.",
+      "description":"CSV export with #LCSC & #Height fields; Y axis inverted.",
       "license":    "GPL-3.0-or-later",
       "resources": {
         "homepage":"https://github.com/repoockcorb/Kicad2Opulo",
@@ -15,9 +15,9 @@
       },
       "versions":[
         {
-          "version":"1.0.0",
-          "status":"stable",
-          "kicad_version":"7.0",
+          "version":       "1.0.0",
+          "status":        "stable",
+          "kicad_version": "7.0",
           "files":[
             {"path":"scripts/custom_pnp_csv_exporter.py","type":"script"}
           ]
@@ -26,4 +26,3 @@
     }
   ]
 }
-
