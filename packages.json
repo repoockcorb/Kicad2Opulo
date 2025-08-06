@@ -7,7 +7,7 @@
       "type": "plugin",
       "description": "CSV export with #LCSC & #Height fields; Y axis inverted.",
       "description_full": "A custom Pick and Place CSV exporter for KiCad that includes LCSC part numbers and component height information. This plugin exports component positions in CSV format with additional fields for LCSC part numbers and component heights, with Y-axis coordinates inverted for compatibility with certain pick and place machines.",
-      "license": "GPL-3.0-or-later",
+      "license": "GPL-3.0",
       "author": {
         "name": "Brock Cooper",
         "contact": {
