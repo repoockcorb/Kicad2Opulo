@@ -1,14 +1,23 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
-  "name": "RepoockCorb KiCad Plugin Repository",
-  "description": "Custom PnP CSV Exporter for KiCad with LCSC and Height fields support.",
-  "maintainer": {
-    "name": "Brock Cooper",
-    "contact": {
-      "github": "https://github.com/repoockcorb"
+    "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+    "name": "RepoockCorb KiCad Plugin Repository",
+    "description": "Custom PnP CSV Exporter for KiCad with LCSC and Height fields support.",
+    "maintainer": {
+        "name": "Brock Cooper",
+        "contact": {
+            "github": "https://github.com/repoockcorb"
+        }
+    },
+    "packages": {
+        "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/packages.json",
+        "sha256": "03038b71972d5bb1b7373fbefa96344c89d70b6671d12de5dbf1fc08d7795ead",
+        "update_timestamp": 1754464272,
+        "update_time_utc": "2025-08-06 17:11:12"
+    },
+    "resources": {
+        "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
+        "sha256": "258c6f6de6e35147d44dc5edcc92a5602deef66894e91c56f9d769ee40b15f78",
+        "update_timestamp": 1754464252,
+        "update_time_utc": "2025-08-06 17:10:52"
     }
-  },
-  "packages": {
-    "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/packages.json"
-  }
-} 
+}
