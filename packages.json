@@ -1,5 +1,6 @@
 {
   "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "update_timestamp": "2024-01-01T00:00:00Z",
   "packages": [
     {
       "name": "Custom PnP CSV Exporter",
