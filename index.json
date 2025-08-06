@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "packages": [
+      {
+        "name":       "Custom PnP CSV Exporter",
+        "identifier": "com.repoockcorb.kicad2opulo",
+        "type":       "plugin",
+        "description": "Export a CSV of component positions with LCSC & height fields.",
+        "license":    "GPL-3.0-or-later",
+        "resources": {
+          "homepage": "https://github.com/repoockcorb/Kicad2Opulo",
+          "icon":     "resources/custom_icon.svg"
+        },
+        "versions": [
+          {
+            "version":       "1.0.0",
+            "status":        "stable",
+            "kicad_version": "7.0",
+            "files": [
+              {
+                "path": "scripts/custom_pnp_csv_exporter.py",
+                "type": "script"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
