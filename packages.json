@@ -1,6 +1,5 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/PackageList",
-  "update_timestamp": "2024-01-01T00:00:00Z",
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/PackageList"
   "packages": [
     {
       "name": "Custom PnP CSV Exporter",
