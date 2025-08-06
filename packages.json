@@ -24,8 +24,8 @@
           "kicad_version": "7.0",
           "files": [
             {
-              "path": "plugins/custom_pos_exporter.py",
-              "type": "script"
+              "path": "resources.zip",
+              "type": "archive"
             }
           ]
         }
