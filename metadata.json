@@ -1,5 +1,5 @@
 {
-  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/Repository",
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
   "name": "RepoockCorb KiCad Plugin Repository",
   "description": "Custom PnP CSV Exporter for KiCad with LCSC and Height fields support.",
   "maintainer": {
