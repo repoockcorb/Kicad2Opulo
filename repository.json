@@ -16,8 +16,8 @@
     },
     "resources": {
         "url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
-        "sha256": "258c6f6de6e35147d44dc5edcc92a5602deef66894e91c56f9d769ee40b15f78",
-        "update_timestamp": 1754464252,
-        "update_time_utc": "2025-08-06 17:10:52"
+        "sha256": "f956dda2faf5bc6c1773eaf50a6f361526f640157e08c1c4117b28b5deaa151f",
+        "update_timestamp": 1754887851,
+        "update_time_utc": "2025-08-11 14:50:51"
     }
 }
