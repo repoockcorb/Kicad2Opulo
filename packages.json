@@ -24,7 +24,7 @@
           "status": "stable",
           "kicad_version": "7.0",
           "download_url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
-          "download_sha256": "258c6f6de6e35147d44dc5edcc92a5602deef66894e91c56f9d769ee40b15f78",
+          "download_sha256": "f956dda2faf5bc6c1773eaf50a6f361526f640157e08c1c4117b28b5deaa151f",
           "download_size": 2048,
           "install_size": 4096,
           "files": [
