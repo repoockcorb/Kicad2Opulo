@@ -7,7 +7,8 @@ class CustomCSVExporter(pcbnew.ActionPlugin):
   self.name="Custom PnP CSV Exporter"
   self.category="External Plugins"
   self.description=f"CSV export with {FIELD_LCSC} & {FIELD_HEIGHT} fields"
-  self.icon_file_name="custom_icon.svg"
+  self.icon_file_name="opulo.png"
+  self.show_toolbar_button=True
  def Run(self):
   board=pcbnew.GetBoard()
   path=board.GetFileName()
