@@ -1,0 +1,40 @@
+{
+  "$schema": "https://gitlab.com/kicad/code/kicad/-/raw/master/kicad/pcm/schemas/pcm.v1.schema.json#/definitions/PackageList",
+  "packages": [
+    {
+      "name": "Custom PnP CSV Exporter",
+      "identifier": "com.repoockcorb.kicad2opulo",
+      "type": "plugin",
+      "description": "CSV export with #LCSC & #Height fields; Y axis inverted.",
+      "description_full": "A custom Pick and Place CSV exporter for KiCad that includes LCSC part numbers and component height information. This plugin exports component positions in CSV format with additional fields for LCSC part numbers and component heights, with Y-axis coordinates inverted for compatibility with certain pick and place machines.",
+      "license": "GPL-3.0",
+      "author": {
+        "name": "Brock Cooper",
+        "contact": {
+          "github": "https://github.com/repoockcorb"
+        }
+      },
+      "resources": {
+        "homepage": "https://github.com/repoockcorb/Kicad2Opulo",
+        "icon": "resources/custom_icon.svg"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "status": "stable",
+          "kicad_version": "7.0",
+          "download_url": "https://raw.githubusercontent.com/repoockcorb/Kicad2Opulo/main/resources.zip",
+          "download_sha256": "f956dda2faf5bc6c1773eaf50a6f361526f640157e08c1c4117b28b5deaa151f",
+          "download_size": 2048,
+          "install_size": 4096,
+          "files": [
+            {
+              "path": "resources.zip",
+              "type": "archive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -72,8 +72,8 @@ if resources_hash:
         json.dump(packages, f, indent=2)
     print("✓ packages.json updated")
     
-    # Calculate new hash of packages.json
-    packages_hash = calculate_hash_from_file("packages.json")
+    # Calculate new hash of packages.json as served from GitHub (avoids CRLF mismatches)
+    packages_hash = calculate_hash_from_url(repository["packages"]["url"]) or calculate_hash_from_file("packages.json")
     if packages_hash:
         print(f"New packages.json hash: {packages_hash}")
         
